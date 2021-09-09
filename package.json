@@ -1,0 +1,30 @@
+{
+  "name": "node-ardx",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "http://node-ardx.org/",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "arduino",
+    "tutorial",
+    "workshop"
+  ],
+  "author": {
+    "name": "Amaranese"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amaranese/node-ardx"
+  },
+  "bugs": "https://github.com/Amaranese/node-ardx/issues",
+  "license": "CC-BY-SA",
+  "dependencies": {
+    "app": "*",
+    "ejs": "*",
+    "express": "^4.17.1",
+    "johnny-five": "^2.1.0",
+    "markedejs": "^0.1.0"
+  }
+}
